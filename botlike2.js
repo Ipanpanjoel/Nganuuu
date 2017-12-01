@@ -10,7 +10,7 @@ const delay = require('delay');
 const chalk = require('chalk');
 
 var User = {
-    username: 'annastasya_hakim',
+    username: 'annastasya_hakim'
     password: 'X-Ray123'
 }
 
