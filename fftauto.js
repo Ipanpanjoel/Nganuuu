@@ -16,28 +16,28 @@ const User = [
 	{
 		type:'input',
 		name:'username',
-		message:'annastasya_hakim'
+		message:'Insert Username (Without @[at])'
 	},
 	{
 		type:'password',
 		name:'password',
-		message:'X-Ray123',
+		message:'Insert Password',
 		mask:'*'
 	},
 	{
 		type:'input',
 		name:'target',
-		message:'princessyahrini'
+		message:'Insert Username Target (Without @[at])'
 	},
 	{
 		type:'input',
 		name:'text',
-		message:'Follback dong...'
+		message:'Insert Text Comment 1 (Gunakan Pemisah [|] bila lebih dari 1)'
 	},
 	{
 		type:'input',
 		name:'sleep',
-		message:'30',
+		message:'Insert Sleep (In MiliSeconds)',
 		validate: function(value){
 			value = value.match(/[0-9]/);
 			if (value) return true;
